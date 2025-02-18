@@ -1,0 +1,49 @@
+.input-form, .List{
+  width: 60%;
+  margin: 100px auto 0px auto;
+  padding: 25px;
+  box-shadow: 0 0 3px rgb(199, 198, 198);
+  color: rgb(37, 34, 34);
+  border-radius: 10px;
+  background-color: white;
+}
+.List{
+  margin-top: 20px;
+}
+.input-form  h2{
+  margin-bottom: 20px;
+}
+.input-form h4{
+  color: rgb(68, 68, 68);
+  font-weight: 500;
+}
+.input-form input{
+  display: block;
+  width: 100%;
+  margin: 10px 0px;
+  border: none;
+  box-shadow: 0 0 2px #b6b3b3;
+  border-radius: 5px;
+  padding-left: 20px;
+  height: 30px;
+}
+.input-form input:last-of-type{
+  height: 100px;
+}
+.input-form button{
+  padding: 10px 15px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+}
+@media (max-width:767px){
+  .input-form, .List{
+    width: 90%
+  }
+}
+
+
+  
